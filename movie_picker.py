@@ -1,14 +1,12 @@
-import sys
+import asyncio
 import concurrent.futures
 import random
+import sys
 import webbrowser
 
-import requests
 import bs4
-
-import asyncio
-
 import pyttsx3
+import requests
 
 IMDB_URL = 'https://www.imdb.com/'
 TOP_FILMS = IMDB_URL + 'chart/top'
